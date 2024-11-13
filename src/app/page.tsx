@@ -23,8 +23,8 @@ export default function Home() {
             using my predictable clients system.
           </p>
           <p>
-            If you're interested in getting more clients with predictability
-            click the button below to learn more.
+            If you&apos;re interested in getting more clients with
+            predictability click the button below to learn more.
           </p>
           <Button className="rounded-[3px] bg-blue-primary hover:bg-blue-primary/80 text-[20px] w-[240px] h-[50px]">
             FREE Case Study
