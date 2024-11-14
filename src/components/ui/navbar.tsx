@@ -1,4 +1,7 @@
+"use client";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export const navList = [
   {
@@ -38,9 +41,14 @@ const Mobile = () => {
   return (
     <nav className=" md:hidden h-auto py-3 bg-black w-full">
       <div className="flex-col justify-between items-center h-full container space-y-2">
-        <h1 className="uppercase text-[32px] text-white">Sam ovens</h1>
+        <Link
+          href="/"
+          className="uppercase text-[32px]  text-white cursor-pointer hover:underline"
+        >
+          Sam ovens
+        </Link>
 
-        <div className="flex items-center gap-x-10">
+        <div className="flex items-center gap-x-10 ">
           {navList.map(({ id, href, name }) => (
             <Link
               key={id}
@@ -56,10 +64,21 @@ const Mobile = () => {
   );
 };
 const Desktop = () => {
+  const pathName = usePathname();
   return (
-    <nav className="hidden md:block h-auto md:h-[83px] bg-black w-full">
+    <nav
+      className={cn(
+        "hidden md:block h-auto  bg-black w-full",
+        pathName === "/case-study" ? "h-[60px]" : "md:h-[83px]"
+      )}
+    >
       <div className="flex justify-between items-center h-full container">
-        <h1 className="uppercase text-[32px] text-white">Sam ovens</h1>
+        <Link
+          href="/"
+          className="uppercase text-[32px] text-white hover:underline"
+        >
+          Sam ovens
+        </Link>
 
         <div className="flex items-center gap-x-10">
           {navList.map(({ id, href, name }) => (
