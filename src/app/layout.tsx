@@ -1,6 +1,5 @@
 import Footer from "@/components/ui/footer";
 import Navbar from "@/components/ui/navbar";
-import NProgress from "@/provider/NProgress";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -21,7 +20,6 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
-        <NProgress />
       </body>
     </html>
   );
