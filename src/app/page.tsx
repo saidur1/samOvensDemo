@@ -15,19 +15,20 @@ export default function Home() {
         </div>
         <div className="max-w-[520px] space-y-[30px]">
           <h1 className="text-[32px] text-2F font-bold mb-[50px]">
-            I help people start and grow profitable consulting businesses
+            We Help Businesses Secure Their EIN Quickly and Hassle-Free
           </h1>
-          <p>Are you a consultant or coach struggling to find clients?</p>
+          <p>Starting a business and need an EIN?</p>
           <p>
-            My name is Sam Ovens and I help consultants get high value clients
-            using my predictable clients system.
+            Our streamlined process simplifies applying for and obtaining your
+            Employer Identification Number so you can focus on growing your
+            business.
           </p>
           <p>
-            If you&apos;re interested in getting more clients with
-            predictability click the button below to learn more.
+            If you&apos;re ready to get your EIN without the stress, click the
+            button below to get started today.
           </p>
           <Button className="rounded-[3px] bg-blue-primary hover:bg-blue-primary/80 text-[20px] w-[240px] h-[50px]">
-            FREE Case Study
+            Get Your EIN
           </Button>
         </div>
       </div>

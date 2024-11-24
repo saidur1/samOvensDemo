@@ -4,9 +4,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Sam Ovens",
+  title: "EIN Application Made Easy",
   description:
-    "Are you a consultant or coach struggling to find clients? My name is Sam Ovens and I help consultants get high value clients using my predictable clients system...",
+    "Need an EIN for your business? We simplify the process! Our service helps entrepreneurs, startups, and businesses apply for and obtain their Employer Identification Number quickly and hassle-free. Start your journey toward compliance and success today.",
 };
 
 export default function RootLayout({
