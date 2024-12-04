@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -26,8 +27,11 @@ export default function Home() {
             If you&apos;re interested in getting more clients with
             predictability click the button below to learn more.
           </p>
-          <Button className="rounded-[3px] bg-blue-primary hover:bg-blue-primary/80 text-[20px] w-[240px] h-[50px] font-bold">
-            FREE Case Study
+          <Button
+            className="rounded-[3px] bg-blue-primary hover:bg-blue-primary/80 text-[20px] w-[240px] h-[50px] font-bold"
+            asChild
+          >
+            <Link href="/case-study">FREE Case Study</Link>
           </Button>
         </div>
       </div>
