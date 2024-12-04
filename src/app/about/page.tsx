@@ -25,7 +25,7 @@ const Page = () => {
             Zealand and Australia and he has helped them gain choke holds in
             their respective markets online.
           </p>
-          <Button className="rounded-[3px] bg-blue-primary hover:bg-blue-primary/80 text-[20px] w-[240px] h-[50px]">
+          <Button className="rounded-[3px] bg-blue-primary hover:bg-blue-primary/80 text-[20px] w-[240px] h-[50px] font-bold">
             FREE Case Study
           </Button>
         </div>

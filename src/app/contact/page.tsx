@@ -7,26 +7,26 @@ const Page = () => {
       <section className="flex flex-col md:flex-row gap-y-10 items-start justify-start md:px-5 py-[80px] gap-x-[100px]">
         <div className="max-w-[520px] space-y-[30px]">
           <h1 className="text-[32px] text-2F font-bold mb-[50px]">
-            Get in Touch with SAIDUR CONSULTING
+            Want to get in touch? Let&apos;s talk!
           </h1>
           <p>
-            We’re here to help! To contact SAIDUR CONSULTING, please use the
-            information below.
+            To contact Sam or his staff please use the following information.
           </p>
           <p>
-            Our business hours are Monday – Friday, 9:00 AM – 5:00 PM (Dhaka
-            Time).
+            Sam Ovens and his staff operate Monday – Friday 9am – 5pm Eastern
+            Time (New York). To contact Sam Ovens or his team please use the
+            information below:
           </p>
           <div>
             <h3 className="font-semibold">Email:</h3>
-            <p>support@saidurrahman.org</p>
+            <p>support@samovensdemo.com</p>
           </div>
           <div>
             <h3 className="font-semibold">Phone:</h3>
-            <p>+880 19 7309 5752</p>
+            <p>+1 212 500 5050</p>
           </div>
-          <Button className="rounded-[3px] bg-blue-primary hover:bg-blue-primary/80 text-[20px] w-[240px] h-[50px]">
-            Get Your EIN
+          <Button className="rounded-[3px] bg-blue-primary hover:bg-blue-primary/80 text-[20px] w-[240px] h-[50px] font-bold">
+            FREE Case Study
           </Button>
         </div>
         <div>
